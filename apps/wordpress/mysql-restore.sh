@@ -20,7 +20,7 @@ fi
  #Install S3
 sudo wget -N "https://s3.amazonaws.com/aws-cli/awscli-bundle.zip"
 sudo unzip -o awscli-bundle.zip
-sudo ./awscli-bundle/install -b /root/bin/aws
+sudo /tmp/awscli-bundle/install -b /root/bin/aws
 
 #Configure S3
 sudo mkdir -p /root/.aws
